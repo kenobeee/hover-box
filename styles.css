@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 400px;
+    height: 400px;
+
+    background-image: url(https://main-cdn.goods.ru/big2/hlr-system/1661773107/100025357664b1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    transition: .1s;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background: #1d1d1d;
+    border: 1px solid #000;
+}
+
+.square:hover {
+    transition-duration: 0s;
+}
+
+.square.active {
+    background-color: transparent;
+}
