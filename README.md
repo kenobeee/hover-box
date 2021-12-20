@@ -1,4 +1,5 @@
 <h1>"Hover Box" on native JS</h1>
+sandbox: https://jsfiddle.net/Kenobi/q5g12z8t
 
 
 First state:
